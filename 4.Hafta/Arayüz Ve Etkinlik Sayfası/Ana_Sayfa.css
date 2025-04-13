@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #main-container {
+    display: flex;
+    width: 100%;
+    background: linear-gradient(#3a1397, #630cc100);
+    background-image: url("arkaplan2.png");
+  }
+  .menu {
+    height: 100%;
+    transition: .3s;
+    background: #ffffff12;
+    padding: 20px 20px 20px 0;
+    width: 85px;
+    box-shadow: 8px 0px 9px 0px #00000014;
+    backdrop-filter: blur(5px);
+    min-height: 100vh;
+  }
+  .menu-content li {
+    list-style: none;
+    border-radius: 0px 50px 50px 0;
+    transition: .3s;
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(219, 233, 220);
+    display: flex;
+    align-items: center;
+    font-family: 'calibri';
+  }
+  .material-symbols-outlined {
+    width: 30px;
+    height: 30px;
+    background: #0c0c0c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  li {
+    padding: 1rem;
+  }
+  li:hover {
+    background: #0c0c0c;
+  }
+  li:hover .material-symbols-outlined {
+    background-color: #d4c9c9;
+  }
+  li:hover .material-symbols-outlined i {
+    color: #333;
+  }
+  li span:nth-child(2) {
+    display: none;
+  }
+  .menu:hover {
+    width: 260px;
+    height: 260px;
+  }
+  .menu:hover li span:nth-child(2) {
+    display: block;
+  }
+  .material-symbols-outlined i {
+    font-size: 0.9rem;
+  }
+  .icon-text {
+    margin-left: 1rem;
+  }
+  #item_container {
+    overflow: hidden;
+    width: 800px;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+                rgba(0, 0, 0, 0.12) 0px -12px 30px,
+                rgba(0, 0, 0, 0.12) 0px 4px 6px,
+                rgba(0, 0, 0, 0.17) 0px 12px 13px,
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 2rem;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 100vh;
+    transition: max-height 0.3s ease-out;
+  }
+  #Sektör_alan,
+  #il_alan,
+  #ilçe_alan {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+                rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+                rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  
+  .input-wrapper {
+    width: 100%;
+    margin-right: 2%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .input-wrapper label {
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-weight: 500;
+  }
+  
+  #btn-Ara {
+    width: 23%;
+    display: inline-block;
+    margin-top: 1.8rem;
+    margin-left: 21rem;
+  }
+  
